@@ -1,4 +1,4 @@
-# postech-fiap-dtat-tech-challenge-fase4
+# postech-fiap-dtat-datathon-fase5
 
 Entrega do Datathon da Fase 5 da Pós Tech em Data Analytics da FIAP, turma 5DTAT.
 

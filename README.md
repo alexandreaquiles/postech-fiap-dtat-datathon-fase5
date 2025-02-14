@@ -8,7 +8,7 @@ Desenvolvemos um Dashboard Interativo que torna possível verificar os resultado
 
 O ponto de virada é um indicador importante de progresso educacional dos alunos, associado à sua evolução em múltiplos aspectos.
 
-O Dashboard pode ser encontrado em: [https://dtat5-tech-challenge-fase4-grupo46-petroleo-brent.streamlit.app/](https://postech-fiap-dtat-datathon-fase5.streamlit.app/)
+O Dashboard pode ser encontrado em: https://postech-fiap-dtat-datathon-fase5.streamlit.app
 
 ### Quem somos nós?
 
@@ -60,7 +60,7 @@ O modelo foi disponibilizado através de uma aplicação interativa utilizando o
 
 O Streamlit permite a visualização e interação com os resultados das previsões de maneira simples e acessível utilizando Plotly Express.
 
-O deploy foi realizado em uma plataforma como Streamlit Cloud, facilitando o acesso por meio do seguinte link público: [https://dtat5-tech-challenge-fase4-grupo46-petroleo-brent.streamlit.app/](https://postech-fiap-dtat-datathon-fase5.streamlit.app/)
+O deploy foi realizado em uma plataforma como Streamlit Cloud, facilitando o acesso por meio do seguinte link público: https://postech-fiap-dtat-datathon-fase5.streamlit.app
 
 
 ### 🛠️ Melhorias Futuras

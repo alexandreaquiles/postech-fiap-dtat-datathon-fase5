@@ -22,7 +22,52 @@ Integrantes:
 
 ## Relatório Técnico
 
+Este repositório contém a análise desenvolvida para a Fase 5 do Datathon, utilizando dados históricos diferentes turmas da ONG Educacional Passos Mágicos e técnicas de aprendizado de máquina para previsões.
 
+### 📦 Importação de Bibliotecas
+
+Pandas, Seaborn, NumPy, Matplotlib.
+
+Modelos de machine learning com o Scikit-Learn, como o RandomForestClassifier.
+
+### 📥 Carregamento de Dados
+
+Dados obtidos a partir de planilhas Google Sheets, referentes aos anos de 2022, 2023 e 2024.
+
+### 🔍 Análise Exploratória
+
+Análise inicial com head(), shape(), info() e describe().
+
+Verificação de valores nulos e distribuição de variáveis.
+
+Tratamento de valores ausentes com imputação adequada.
+
+Codificação de variáveis categóricas com One Hot Enconder e LabelEncoder.
+
+Normalização de variáveis numéricas utilizando StandardScaler.
+
+### 🧠 Modelagem Preditiva
+
+Utilização do modelo RandomForestClassifier.
+
+Pré-processamento dos dados com LabelEncoder e StandardScaler.
+
+Avaliação de métricas de desempenho, como precisão, recall, matriz de confusão e feature importance.
+
+### ⚙️ Deploy do modelo
+
+O modelo foi disponibilizado através de uma aplicação interativa utilizando o Streamlit.
+
+O Streamlit permite a visualização e interação com os resultados das previsões de maneira simples e acessível utilizando Plotly Express.
+
+O deploy foi realizado em uma plataforma como Streamlit Cloud, facilitando o acesso por meio do seguinte link público: [https://dtat5-tech-challenge-fase4-grupo46-petroleo-brent.streamlit.app/](https://postech-fiap-dtat-datathon-fase5.streamlit.app/)
+
+
+### 🛠️ Melhorias Futuras
+
+Explorar outras técnicas de modelagem, como redes neurais.
+
+Refinar o pré-processamento dos dados, considerando variáveis categóricas específicas.
 
 ### Como rodar localmente?
 
@@ -36,4 +81,12 @@ Em seguida, precisamos executar a CLI do Streamlit:
 
 ```sh
 streamlit run Dashboard.py
+```
+
+Para 
+
+Para executar o notebook localmente, recomenda-se executar no Jupyter o seguinte comando:
+
+```sh
+jupyter notebook 5dtat_datathon_fase5.ipynb
 ```
